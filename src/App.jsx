@@ -23,7 +23,7 @@ function App() {
       </div>
 
       <div className="row w-100 p-4" style={{ height: "300px" }}>
-        {tasks.length > 0 ? <TasksContainer tasks={tasks} setTasks={setTasks} /> : <p className="text-muted text-center border border-light p-2 rounded"> Start doing something! </p>}
+        {tasks.length > 0 ? <TasksContainer tasks={tasks} setTasks={setTasks} /> : <p className="text-info text-center p-2 rounded"> Start doing something! </p>}
       </div>
     </div>
   );

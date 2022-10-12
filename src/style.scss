@@ -1,0 +1,40 @@
+
+$dark: #16121F;
+$primary: #0088e2;
+$secondary: #1B1927;
+$light:#262235;
+$info:#ffffff;
+@import "bootstrap";
+@import '/node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Mulish', sans-serif;
+  color: #fff;
+  height: 100vh;
+  background: linear-gradient(to right, #002944, #002838);
+}
+:is(input,button):focus{outline: 0;}
+.hover{transition: all 0.3s;}
+.hover:hover{transform: scale(1.1);}
+
+.task-container::-webkit-scrollbar{
+  width: 5px;
+  margin-inline: 5px;
+}
+
+.task-container::-webkit-scrollbar-track{
+  background: #92929269;
+  background-color: $light;
+  border-radius: 10px;
+}
+.task-container::-webkit-scrollbar-thumb{
+  background: #e4dada9d;
+  border-radius: 10px;
+}
+.task{
+  background-color: #041b31;
+}
+.completed{
+  background-color: #02081a;
+}
