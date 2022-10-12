@@ -3,7 +3,11 @@ import Tasks from './Tasks'
 const TasksContainer = ({tasks, setTasks}) => {
 
     return (
+<<<<<<< HEAD
       <div className="container task-container d-flex flex-column justify-content-space-between gap-4 p-4 overflow-auto" style={{height: "300px"}}>
+=======
+      <div className="container task-container d-flex flex-column justify-content-space-between gap-4 border border-light p-4 overflow-auto" style={{height: "300px"}}>
+>>>>>>> 3d68e0343f5e690f0967f9c404741dd2f7f2698e
         {tasks.map( (task) =>{      
           return (
               <Tasks 
