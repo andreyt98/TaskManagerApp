@@ -12,7 +12,7 @@ body {
   font-family: 'Mulish', sans-serif;
   color: #fff;
   height: 100vh;
-  background: linear-gradient(to right, #002944, #002838);
+  background:  #002944;
 }
 :is(input,button):focus{outline: 0;}
 .hover{transition: all 0.3s;}
@@ -34,6 +34,7 @@ body {
 }
 .task{
   background-color: #041b31;
+  transition: all 0.3s;
 }
 .completed{
   background-color: #02081a;
